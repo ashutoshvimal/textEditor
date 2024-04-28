@@ -1,0 +1,5 @@
+for escape codes
+https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
+
+for ds
+https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/editor-data-structures/
