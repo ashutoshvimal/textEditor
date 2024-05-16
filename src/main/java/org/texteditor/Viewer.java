@@ -26,8 +26,8 @@ public class Viewer {
 
     private static int cursorX = 0, cursorY = 0, offSetY = 0 ;
 
-//    private static List<String> content = List.of();
-    private static BufferedReader content;
+    private static List<String> content = List.of();
+//    private static BufferedReader content;
 
     public static void main(String[] args) throws IOException {
 
@@ -85,10 +85,10 @@ public class Viewer {
         stringBuffer.append("\033[H"); //moves cursor to home position (0, 0)
     }
 
-    public static boolean lastLine(){
-        String line;
-        
-    }
+//    public static boolean lastLine(){
+//        String line;
+//
+//    }
 
     public static void drawContent(StringBuilder stringBuffer){
         for (int i = offSetY; i < rows+offSetY; i++) {
